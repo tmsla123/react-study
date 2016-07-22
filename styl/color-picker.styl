@@ -1,0 +1,99 @@
+.picker-icons
+  background-image: url('/assets/images/color-picker/picker-icons.gif');
+
+.color-picker-popup
+  & .simple-colors
+    padding: 4px 4px 2px 4px;
+
+  & .complex-colors
+    padding: 2px 4px 2px 4px;
+
+  & .custom-colors
+    padding: 2px 4px 4px 4px;
+
+    & .color-row
+      & .color-item
+        width: 12px;
+        height: 12px;
+        border: 1px solid $dropdownBorderColor;
+
+  // color row
+  & .color-row
+    cursor: pointer;
+    overflow: hidden;
+    &:after
+      content: '';
+      clear: both;
+    & .color-item
+      margin: 1px;
+      width: 14px;
+      height: 14px;
+      float: left;
+
+      &:hover
+        outline: 1px solid rgba(0,0,0, .3);
+
+  & .custom-options
+    position: relative;
+    height: 170px;
+    margin: 10px 9px 5px;
+
+  & .custom-content
+    height: 140px;
+
+    & > div
+      position: relative;
+      height: 140px;
+
+    & .sv-content
+      float: left
+      width: 140px;
+      background-image: url('/assets/images/color-picker/color-sv-map.png');
+
+    & .sv-pointer
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: -5px;
+      margin-left: -5px;
+      width: 10px;
+      height: 10px;
+      background-position: -34px 0;
+
+    & .h-content
+      float: right;
+      width: 15px;
+      background-image: url('/assets/images/color-picker/color-h-bar.png');
+
+    & .h-pointer
+      position: absolute;
+      top: 0;
+      left: -7px;
+      margin-top: -4px;
+      width: 29px;
+      height: 9px;
+      background-image: url('/assets/images/color-picker/color-h-bar-pointer.png');
+
+  & .custom-footer
+    margin-top: 10px;
+
+    & .color-bg
+      float: left;
+      width: 70px;
+      height: 18px;
+      border: 1px solid #aaa;
+
+    & .color-text
+      float: left;
+      width: 45px;
+      margin-left: 3px;
+
+    & .color-confirm
+      float: right;
+      line-height: 17px;
+      background-color: #eee;
+      border: 1px solid #aaa;
+      cursor: pointer;
+      font-size: 12px;
+
+

@@ -1,0 +1,97 @@
+.picker-icons {
+  background-image: url("/assets/images/color-picker/picker-icons.gif");
+}
+.color-picker-popup .simple-colors {
+  padding: 4px 4px 2px 4px;
+}
+.color-picker-popup .complex-colors {
+  padding: 2px 4px 2px 4px;
+}
+.color-picker-popup .custom-colors {
+  padding: 2px 4px 4px 4px;
+}
+.color-picker-popup .custom-colors .color-row .color-item {
+  width: 12px;
+  height: 12px;
+  border: 1px solid $dropdownBorderColor;
+}
+.color-picker-popup .color-row {
+  cursor: pointer;
+  overflow: hidden;
+}
+.color-picker-popup .color-row:after {
+  content: '';
+  clear: both;
+}
+.color-picker-popup .color-row .color-item {
+  margin: 1px;
+  width: 14px;
+  height: 14px;
+  float: left;
+}
+.color-picker-popup .color-row .color-item:hover {
+  outline: 1px solid rgba(0,0,0,0.3);
+}
+.color-picker-popup .custom-options {
+  position: relative;
+  height: 170px;
+  margin: 10px 9px 5px;
+}
+.color-picker-popup .custom-content {
+  height: 140px;
+}
+.color-picker-popup .custom-content > div {
+  position: relative;
+  height: 140px;
+}
+.color-picker-popup .custom-content .sv-content {
+  float: left;
+  width: 140px;
+  background-image: url("/assets/images/color-picker/color-sv-map.png");
+}
+.color-picker-popup .custom-content .sv-pointer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -5px;
+  margin-left: -5px;
+  width: 10px;
+  height: 10px;
+  background-position: -34px 0;
+}
+.color-picker-popup .custom-content .h-content {
+  float: right;
+  width: 15px;
+  background-image: url("/assets/images/color-picker/color-h-bar.png");
+}
+.color-picker-popup .custom-content .h-pointer {
+  position: absolute;
+  top: 0;
+  left: -7px;
+  margin-top: -4px;
+  width: 29px;
+  height: 9px;
+  background-image: url("/assets/images/color-picker/color-h-bar-pointer.png");
+}
+.color-picker-popup .custom-footer {
+  margin-top: 10px;
+}
+.color-picker-popup .custom-footer .color-bg {
+  float: left;
+  width: 70px;
+  height: 18px;
+  border: 1px solid #aaa;
+}
+.color-picker-popup .custom-footer .color-text {
+  float: left;
+  width: 45px;
+  margin-left: 3px;
+}
+.color-picker-popup .custom-footer .color-confirm {
+  float: right;
+  line-height: 17px;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  cursor: pointer;
+  font-size: 12px;
+}

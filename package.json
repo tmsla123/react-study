@@ -1,0 +1,22 @@
+{
+  "name": "reat-ui-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.1.1"
+  }
+}
